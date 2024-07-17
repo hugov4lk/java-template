@@ -1,2 +1,0 @@
-DELETE FROM car;
-DELETE FROM person;

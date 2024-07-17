@@ -1,12 +1,9 @@
-# Running java-template
+# Running decision-engine
  
-## Local development (database only):
+## Start back-end:
 
- - `docker-compose -f docker-compose-db.yml up -d` 
  - Run the app locally from IDE or `./gradlew bootRun`
- - Stop the database after development `docker-compose -f docker-compose-db.yml down`
 
-## Application with docker - http://localhost:8080/
+## Start front-end:
 
- - `docker-compose up -d`
- - `docker-compose down`
+ - Open file 'frontend/frontend.html' in browser
